@@ -21,7 +21,7 @@ If you want to convert the entire project, simply click `ALL`, and it will do th
 
 NOTE:  It might not be the fastest, it still requires a manual effort, but it's faster than doing it ALL manually!
 
-## Updates 2021-12-01
+## Updates 2025-04-22
 
 The original version of the converter approached the problem in a block-by-block approach, separating every logical program unit into its own string and converting it on its own.  As a result, the converter made multiple passes and basically ran extremely slow.  After updating the linter to not use this approach, but simply to run through the code from top to bottom, it appeared evident that the converter could do the same thing with just as much accuracy.
 
