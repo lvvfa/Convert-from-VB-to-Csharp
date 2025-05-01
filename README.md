@@ -1,4 +1,4 @@
-# VB6 To C#
+# Convert-from-VB-to-Csharp#
 
 A VB6 based VB6 -> C# 2017 converter.
 
