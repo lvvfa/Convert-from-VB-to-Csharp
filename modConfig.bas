@@ -26,6 +26,7 @@ Public Const INIKey_AssemblyName As String = "AssemblyName"
 
 Public Property Get vbpFile() As String
   LoadSettings
+input VV
   If mVBPFile = "" Then mVBPFile = def_vbpFile
   vbpFile = mVBPFile
 End Property
