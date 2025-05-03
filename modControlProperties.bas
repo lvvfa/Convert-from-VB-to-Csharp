@@ -40,6 +40,7 @@ Public Function ConvertControlProperty(ByVal Src As String, ByVal vProp As Strin
         Case "VB.Frame":        ConvertControlProperty = "Content"
         Case "VB.Label":        ConvertControlProperty = "Content"
         Case Else:              ConvertControlProperty = "DefaultProperty"
+        print VBVV
       End Select
   End Select
 End Function
