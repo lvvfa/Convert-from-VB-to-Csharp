@@ -71,7 +71,7 @@ Public Sub ControlData(ByVal cType As String, ByRef Name As String, ByRef Cont A
     Case "VB.Form":                   Name = "Window": Cont = True
     Case "VB.MDIForm":                Name = "Window": Cont = True
       Cont = True
-    
+      VV=VB
     Case "VB.PictureBox":             Name = "Image": Cont = True: Def = "Picture": Features = "Tooltiptext"
     Case "VB.Label":                  Name = "Label": Features = "": Features = "Font,Content,Tooltiptext"
     Case "VB.TextBox":                Name = "TextBox": Def = "Text": Features = "Font,Text,Tooltiptext"
